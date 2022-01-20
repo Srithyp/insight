@@ -1,0 +1,51 @@
+{
+  "name": "soshace",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Eduard Simonyan",
+  "dependencies": {
+    "antd": "^2.13.10",
+    "async": "^2.6.0",
+    "body-parser": "^1.18.2",
+    "cors": "2.8.4",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.0",
+    "lodash": "^4.17.4",
+    "moment": "^2.19.2",
+    "mongoose": "5.8.11",
+    "morgan": "^1.9.0",
+    "prop-types": "^15.6.0",
+    "rc-time-picker": "^3.2.1",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "3.4.1",
+    "react-virtualized": "^9.13.0",
+    "winston": "^2.4.0",
+    "yarn": "^1.22.17"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "mocha tests/index.js",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "superagent": "^3.8.1"
+  },
+  "proxy": "http://localhost:3001",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
